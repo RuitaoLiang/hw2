@@ -3,6 +3,7 @@ function setup() {
 }
 
 function draw() {
-  stroke(random(width), random(height), 0);
-  line(random(width), random(height), random(width), random(height));
+	var startX = random(width);
+  stroke(startX, random(height), 0);
+  line(startX, random(height), random(width), random(height));
 }
