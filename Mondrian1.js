@@ -16,4 +16,4 @@ function draw() {
   fill(51);
   rect(random(width), random(height), random(width), random(height));
 }
-draw();
+
