@@ -1,12 +1,37 @@
-function setup()
-  create Canvas(600,400);
-  strokeWeight(10);
-stroke(51);
-rect(500, 300, 60, 60);
- fill(255, 204, 0);
-rect(20, 20, 60, 60);
-colorMode(HSB);
-fill(255, 204, 100);
-rect(20, 20, 60, 60);
-fill('red');
-rect(20, 20, 60, 60);
+function setup() {
+  createCanvas(1200, 800);
+  strokeWeight(8);
+  stroke(80);
+  rect(1, 5, 248, 101);
+	var steps=0;
+	while (steps < 11) {
+  fill(random(0,255), random(0,255), random(0,255));
+	rect(249, 5, 302, 101);
+	fill(random(0,255), random(0,255), random(0,255));
+  rect(551, 5, 173, 192);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(1, 105, 102, 211);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(1, 317, 102, 325);
+	rect(1,643,551,94);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(103, 106, 449, 317);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(103, 423, 184, 220);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(287, 423, 121, 220);
+  rect(431, 423, 121, 220);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(551, 423, 173, 48);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(551, 471, 87, 172);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(638, 471, 87, 172);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(552, 643, 173, 94);
+	rect(1,643,551,94);
+  fill(random(0,255), random(0,255), random(0,255));
+  rect(103, 106, 449, 317);
+	steps++;
+}
+}
